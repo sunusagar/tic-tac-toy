@@ -14,6 +14,7 @@ cout++;
         box.innerText="O"
         box.style.color="red";
         truno=false;
+        box.disabled=true;
         
     }
     else{
@@ -22,6 +23,8 @@ cout++;
         box.innerText="X";
         box.style.color="black";
         truno=true;
+        box.disabled=true;
+        
         
     }
     
